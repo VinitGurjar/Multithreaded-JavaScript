@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "multithreaded-javascript",
+  "version": "1.0.0",
+  "description": "Impleting mutithreading in node.js via workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinitGurjar/Multithreaded-JavaScript.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "nodejs",
+    "workers"
+  ],
+  "author": "https://github.com/VinitGurjar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinitGurjar/Multithreaded-JavaScript/issues"
+  },
+  "homepage": "https://github.com/VinitGurjar/Multithreaded-JavaScript#readme"
+}
