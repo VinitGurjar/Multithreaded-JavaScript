@@ -10,7 +10,7 @@ function chunkify(array, n) {
 
 function run(jobs, concurrentWorkers) {
   const chunks = chunkify(jobs, concurrentWorkers);
-  chunks.forEach((chunk) => {
+  chunks.forEach((data, i) => {
     const worker = new Worker("./worker.js");
     worker.postMessage(data);
   });
